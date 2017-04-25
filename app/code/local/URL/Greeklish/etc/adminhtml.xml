@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    URL
+ * @package     URLGreeklish
+ * @author		Paschaleris Triantafyllos ( paschaleris.gr )
+ */
+-->
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<urlgreeklish translate="title" module="urlgreeklish">
+										<title>Greeklish URLs Settings</title>
+									</urlgreeklish>
+								</children>
+							</config>
+						</children>
+					</system>
+				 </children>
+			</admin>
+		</resources>
+	</acl>	
+</config>

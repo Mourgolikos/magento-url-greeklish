@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    URL
+ * @package     URLGreeklish
+ * @author      Paschaleris Triantafyllos ( paschaleris.gr )
+ */
+-->
+<config>
+	<tabs>
+        <url module="urlgreeklish">
+            <label>URLs</label>
+            <sort_order>100</sort_order>
+        </url>
+    </tabs>
+	<sections>
+		<urlgreeklish translate="label" module="urlgreeklish">
+            <label>Greeklish URLs</label>
+            <tab>URL</tab>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<enabled translate="label comment">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<sort_order>10</sort_order>
+                        </enabled>
+					</fields>
+                </general>
+            </groups>
+        </urlgreeklish>
+    </sections>
+</config>
